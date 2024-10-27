@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(180, 214, 214);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: brown;
+}
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    width: 40em;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.square {
+    width: 5em;
+    height: 5em;
+    transition: background-color 0.3s;
+}
+
+.light {
+    background: #ebecd0;
+}
+
+.dark {
+    background: #779556;
+}
+
+.square:hover {
+    background-color:
+        #4f3838;
+}
